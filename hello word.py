@@ -1,19 +1,14 @@
-def reverse(number):
-    original_number = number
-    reverse_number = 0
+print("Hello world")
+print('Hello world')
 
-    while number > 0:
-        reminder = number % 10
-        reverse_number = (reverse_number * 10) + reminder
+name = "Hello"
+print(name)
 
-        if original_number == reverse:
-            return True
-        else:
-            return False
+name = input("Enter your name")
 
+print(name)
 
-print("original and reverse number is")
-print(reverse(121))
-print("hello word ")
-print("steel quantity estimation")
-print("hello word")
+if 5 > 10:
+    print("Five is greater than 10")
+else:
+    print("Five is not greater than 10")
